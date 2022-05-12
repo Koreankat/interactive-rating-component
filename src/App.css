@@ -1,0 +1,38 @@
+.v-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.star {
+  width: 40px;
+  background-color: hsl(213, 19%, 25%);
+  border-radius: 999px;
+  padding: 12px;
+}
+.card {
+  background-color: hsl(213, 19%, 18%);
+}
+.light-white {
+  color: rgba(255, 255, 255, 0.592);
+}
+.numbers {
+  width: 50px;
+  background-color: hsl(213, 19%, 25%);
+  border-radius: 999px;
+  padding: 12px;
+  margin-right: 2px;
+}
+.numbers:hover {
+  background-color: hsl(216, 12%, 54%);
+  cursor: pointer;
+}
+
+.btn {
+  background-color: hsl(25, 97%, 53%);
+}
+.btn:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
