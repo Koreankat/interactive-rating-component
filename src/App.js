@@ -23,9 +23,9 @@ function Rating({ changeStyle, listItems }) {
             feedback is appreciated to help us improve our offering!
           </p>{" "}
           <div className='md:w-[21.25rem] w-[17.5rem]'>
-            <ul className='flex justify-between items-center light-white text-center'>
+            <div className='flex justify-between items-center light-white text-center'>
               {listItems}
-            </ul>
+            </div>
           </div>
           <button
             className='md:w-[21.25rem] w-[17.5rem] mt-6 text-white p-2 btn rounded-full font-bold'
@@ -68,7 +68,7 @@ function App() {
     <button
       key={number.key}
       className='numbers'
-      id='numbers'
+      id='click'
       onClick={() => {
         setIsClicked(number.key)
       }}
