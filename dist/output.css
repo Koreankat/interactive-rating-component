@@ -646,6 +646,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   cursor: pointer;
 }
 
+#numbers:focus {
+  background-color: hsl(25, 97%, 53%);
+}
+
 .btn {
   background-color: hsl(25, 97%, 53%);
 }

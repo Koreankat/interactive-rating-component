@@ -65,15 +65,16 @@ function App() {
   const [isClicked, setIsClicked] = useState(false)
 
   const listItems = numbers.map((number) => (
-    <span
+    <button
       key={number.key}
       className='numbers'
+      id='numbers'
       onClick={() => {
         setIsClicked(number.key)
       }}
     >
       {number.num}
-    </span>
+    </button>
   ))
   const [style, setStyle] = useState("shown")
   const changeStyle = () => {
