@@ -2,4 +2,7 @@
 body {
   font-family: "Overpass", sans-serif;
   background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

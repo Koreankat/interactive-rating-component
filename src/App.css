@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .v-center {
   margin: 0;
   position: absolute;
@@ -5,8 +9,11 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+.clicked {
+  background-color: hsl(25, 97%, 53%);
+}
 .star {
-  width: 40px;
+  width: 2.5rem;
   background-color: hsl(213, 19%, 25%);
   border-radius: 999px;
   padding: 12px;
@@ -18,12 +25,13 @@
   color: rgba(255, 255, 255, 0.592);
 }
 .numbers {
-  width: 50px;
+  width: 3.125rem;
   background-color: hsl(213, 19%, 25%);
   border-radius: 999px;
   padding: 12px;
   margin-right: 2px;
 }
+
 .numbers:hover {
   background-color: hsl(216, 12%, 54%);
   cursor: pointer;
@@ -34,5 +42,22 @@
 }
 .btn:hover {
   background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+.hidden {
+  display: hidden;
+}
+.shown {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.zm {
+  z-index: -4;
+}
+.bg-light {
+  background-color: hsl(213, 19%, 25%);
   color: hsl(25, 97%, 53%);
 }
